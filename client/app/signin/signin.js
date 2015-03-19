@@ -3,7 +3,7 @@
 angular.module('pwrecovApp')
   .config(function ($routeProvider) {
     $routeProvider
-      .when('/signin', {
+      .when('/', {
         templateUrl: 'app/signin/signin.html',
         controller: 'SigninCtrl'
       });
